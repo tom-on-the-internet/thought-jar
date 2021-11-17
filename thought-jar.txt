@@ -1,0 +1,9 @@
+We follow existing patterns when we write code. Juniors more than seniors, but all developers do it.
+
+If the existing pattern is good, following it improves the codebase. If the existing pattern is bad, following it worsens the codebase.
+
+Whenever you are writing something new, think about the patterns you are encouraging.
+--
+This is text
+--
+Another quote
