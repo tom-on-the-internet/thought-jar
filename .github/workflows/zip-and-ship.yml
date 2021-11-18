@@ -20,13 +20,6 @@ jobs:
       - name: Get dependencies
         run: |
           go get
-      - uses: actions/setup-node@v2
-        with:
-          node-version: "14"
-      - name: npm
-        run: |
-          npm install
-          npm run prod
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
