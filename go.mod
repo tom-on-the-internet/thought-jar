@@ -1,4 +1,4 @@
-module thought-jar
+module github.com/tom-on-the-internet/thought-jar
 
 go 1.17
 
