@@ -30,12 +30,16 @@ func main() {
 // Determines if the user wants this to operates as a web server
 // or a one time print.
 func isWeb() bool {
+	if os.Getenv("WEB") != "" {
+		return true
+	}
+
 	return len(os.Args) == 2 && os.Args[1] == "web"
 }
 
 // Serves web requests asking for a thought.
 func serveWeb() {
-	http.HandleFunc("/", func(w http.ResponseWriter, _ *http.Request) {
+	http.HandleFunc("*", func(w http.ResponseWriter, _ *http.Request) {
 		fmt.Fprintln(w, thought())
 	})
 
