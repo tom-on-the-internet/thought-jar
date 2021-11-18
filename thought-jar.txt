@@ -4,6 +4,6 @@ If the existing pattern is good, following it improves the codebase. If the exis
 
 Whenever you are writing something new, think about the patterns you are encouraging.
 --
-This is text
+If I ever get real rich, I hope I'm not real mean to poor people, like I am now.
 --
 Another quote
