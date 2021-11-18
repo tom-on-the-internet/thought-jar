@@ -39,7 +39,7 @@ func isWeb() bool {
 
 // Serves web requests asking for a thought.
 func serveWeb() {
-	http.HandleFunc("*", func(w http.ResponseWriter, _ *http.Request) {
+	http.HandleFunc("/", func(w http.ResponseWriter, _ *http.Request) {
 		fmt.Fprintln(w, thought())
 	})
 
