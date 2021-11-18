@@ -9,6 +9,8 @@ import (
 	"os"
 	"strings"
 	"time"
+
+	"github.com/apex/gateway/v2"
 )
 
 //go:embed thought-jar.txt
@@ -37,7 +39,11 @@ func serveWeb() {
 		fmt.Fprintln(w, thought())
 	})
 
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	if isLocal() {
+		log.Fatal(http.ListenAndServe(":8080", nil))
+	} else {
+		log.Fatal(gateway.ListenAndServe(":8080", nil))
+	}
 }
 
 // Prints a thought to stdout.
@@ -56,4 +62,8 @@ func thought() string {
 	randomIndex := rand.Intn(len(thoughts))
 
 	return image + thoughts[randomIndex]
+}
+
+func isLocal() bool {
+	return os.Getenv("AWS_LAMBDA_FUNCTION_NAME") == ""
 }
