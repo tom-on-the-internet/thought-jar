@@ -6,4 +6,8 @@ Whenever you are writing something new, think about the patterns you are encoura
 --
 If I ever get real rich, I hope I'm not real mean to poor people, like I am now.
 --
-Change
+A good programmer is someone who looks both ways before crossing a one-way street.
+--
+Walking on water and developing software from a specification are easy if both are frozen.
+--
+“Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?” Brian Kernighan
