@@ -11,3 +11,12 @@ A good programmer is someone who looks both ways before crossing a one-way stree
 Walking on water and developing software from a specification are easy if both are frozen.
 --
 “Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?” Brian Kernighan
+--
+“Improving daily work is even more important than doing daily work.” Gene Kim
+--
+“Being able to take needless work out of the system is more important than being able to put more work into the system.” Gene Kim
+--
+“Until code is in production, no value is actually being generated, because it’s merely WIP stuck in the system.” Gene Kim
+--
+"Left unchecked, technical debt will ensure that the only work that gets done is unplanned work!" Gene Kim
+
