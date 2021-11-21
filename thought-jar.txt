@@ -19,4 +19,10 @@ Walking on water and developing software from a specification are easy if both a
 “Until code is in production, no value is actually being generated, because it’s merely WIP stuck in the system.” Gene Kim
 --
 "Left unchecked, technical debt will ensure that the only work that gets done is unplanned work!" Gene Kim
+--
+Obvious code is important. What you can do in one line you should do in three.
+--
+"There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult." C. A. R. Hoare
+--
+People don't decide what they believe. When a person is convinced of something, they believe it. There's no choice in the matter. Trying to convince someone has nothing to do with trying to make the person choose to believe.
 
