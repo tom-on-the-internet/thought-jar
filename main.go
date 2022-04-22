@@ -44,6 +44,7 @@ func serveWeb() {
 	})
 
 	if isLocal() {
+		fmt.Println("👂 on port 8080")
 		log.Fatal(http.ListenAndServe(":8080", nil))
 	} else {
 		log.Fatal(gateway.ListenAndServe(":8080", nil))
